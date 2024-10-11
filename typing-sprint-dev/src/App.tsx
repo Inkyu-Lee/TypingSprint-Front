@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
+import Router from './Routes/Router';
 
 const App:React.FC = () => {
   return (
     <>
-      <div className='text-3xl font-bold underline'>
-        <p className='text-3xl font-bold underline'>Hello World!</p>
-        <h1>헬로월드</h1>
-      </div>
+      <Router/>
     </>
   );
 }
